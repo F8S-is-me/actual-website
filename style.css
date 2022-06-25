@@ -16,8 +16,6 @@
     background: url('heroimage.jpeg');
     background-size:cover;
     position:relative;
-    flex-shrink: auto
-    ;
 }
 /* text css above hero image*/
 .hero_title {
@@ -33,6 +31,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.container{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .icon {
     font-size: 5rem;
